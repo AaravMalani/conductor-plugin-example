@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "packageManager": "yarn@4.6.0",
   "description": "The example plugin for Conductor framework",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -cw",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "watch": "rollup -cw --bundleConfigAsCjs",
     "lint": "eslint --concurrency=auto src",
     "format": "prettier --write \"**/*.{ts,tsx,json,js,mjs}\"",
     "format:ci": "prettier --list-different \"**/*.{ts,tsx,json,js,mjs}\"",
