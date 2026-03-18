@@ -17,7 +17,7 @@ export default defineConfig([
         projectService: {
           allowDefaultProject: ["src/tests/*.ts"],
         },
-      }
+      },
     },
     plugins: {
       "@typescript-eslint": tseslint.plugin,
