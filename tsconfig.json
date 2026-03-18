@@ -1,0 +1,10 @@
+{
+  "exclude": ["docs", "coverage", "dist", "node_modules", "src/tests"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "es2023",
+    "sourceMap": true,
+    "esModuleInterop": true
+  }
+}
